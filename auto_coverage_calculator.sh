@@ -4,7 +4,7 @@ report_file=/home/afeser/ansible2/test/results/reports/coverage/index.html
 
 for test in $module_names
 do
-    if [ -z "coverage_result_$test.html" ]
+    if [ -f "coverage_result_$test.html" ]
     then
         echo "Found already an existing result. Please remove it first if you wish to run again: coverage_result_$test.html"
     else
