@@ -1,0 +1,16 @@
+---
+- name: Update web servers
+  hosts: all
+  remote_user: root
+
+  tasks:
+  - name: abc
+    ansible.builtin.find:
+      paths: /var/log
+      patterns: '*'
+      recurse: yes
+    register: found_files
+
+  - name: print files
+    ansible.builtin.debug:
+      var: found_files
