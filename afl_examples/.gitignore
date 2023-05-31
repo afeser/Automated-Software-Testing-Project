@@ -1,0 +1,9 @@
+python-afl/
+afl/
+afl-demo/
+fuzzing-results*
+*.build
+*.bin
+inputs_to_file.txt
+example_exception_out
+example_exception_test_cases
