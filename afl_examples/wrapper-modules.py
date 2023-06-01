@@ -48,8 +48,6 @@ if not fail:
         # pfilter(arguments)
         arguments = [arg.rstrip() for arg in arguments]
         print('Number arguments', number_args)
-        for arg in arguments:
-            print('"' + arg + '"')
         test_iptables(arguments)
 
         

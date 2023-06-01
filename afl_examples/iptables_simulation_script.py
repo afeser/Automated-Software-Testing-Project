@@ -68,10 +68,16 @@ def test_iptables(vars):
     set_module_args(temp_args)
     # AUTO GENERATED CODE END -------------------------------------------------------------------
 
+    commands_results = [
+        (0, '', ''),
+    ]
 
     with patch.object(basic.AnsibleModule, 'run_command') as run_command:
-        iptables.main()
-        print('this code runs!')
+        run_command.side_effect = commands_results
+        try:
+            iptables.main()
+        except AnsibleExitJson as result:
+            print(result)
 
         # run_command.return_value = 0, '', ''  # successful execution, no output
         # with self.assertRaises(AnsibleExitJson) as result:

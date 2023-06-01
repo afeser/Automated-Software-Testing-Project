@@ -42,7 +42,7 @@ for point in data:
 all_keys = list(set(all_keys))
 all_keys.sort()
 
-os.makedirs('iptables', exist_ok=True)
+os.makedirs('inputs', exist_ok=True)
 for file_counter, point in enumerate(data):
     output = ''
     try:
@@ -54,7 +54,7 @@ for file_counter, point in enumerate(data):
     except KeyError:
         print('KeyError')
     
-    with open(f'iptables/in_{file_counter}.txt', 'w') as f:
+    with open(f'inputs/in_{file_counter}.txt', 'w') as f:
         f.write(output)
 
 
