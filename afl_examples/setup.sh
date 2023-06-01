@@ -13,7 +13,7 @@ cd python-afl
 python3 setup.py build
 mkdir install_dir
 python3 setup.py install --prefix install_dir
-echo 'PATH=$PATH:'"$(pwd)/install_dir/bin" >> ~/.bashrc
+echo 'export PATH=$PATH:'"$(pwd)/install_dir/bin" >> ~/.bashrc
 
 
 
