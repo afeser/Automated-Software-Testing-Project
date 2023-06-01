@@ -1,0 +1,3 @@
+^.*?\\.(?:old|log\\.gz)$
+'nginx,mysql'
+yes
