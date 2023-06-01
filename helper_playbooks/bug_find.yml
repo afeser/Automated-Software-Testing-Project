@@ -9,7 +9,7 @@
       paths: /var/log
       patterns: '*'
       recurse: yes
-      contents: 'asd'
+      contains: 'asd'
     register: found_files
 
   - name: print files

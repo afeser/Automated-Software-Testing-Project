@@ -1,0 +1,22 @@
+    def __init__(self, module):
+    def __enter__(self):
+    def __exit__(self, type, value, traceback):
+def package_split(pkgspec):
+def package_version_compare(version, other_version):
+def package_best_match(pkgname, version_cmp, version, release, cache):
+def package_status(m, pkgname, version_cmp, version, default_release, cache, state):
+def expand_dpkg_options(dpkg_options_compressed):
+def expand_pkgspec_from_fnmatches(m, pkgspec, cache):
+def parse_diff(output):
+def mark_installed_manually(m, packages):
+def install(m, pkgspec, cache, upgrade=False, default_release=None,
+def get_field_of_deb(m, deb_file, field="Version"):
+def install_deb(
+def remove(m, pkgspec, cache, purge=False, force=False,
+def cleanup(m, purge=False, force=False, operation=None,
+def aptclean(m):
+def upgrade(m, mode="yes", force=False, default_release=None,
+def get_cache_mtime():
+def get_updated_cache_time():
+def get_cache(module):
+def main():

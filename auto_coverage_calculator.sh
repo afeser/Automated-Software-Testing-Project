@@ -1,3 +1,5 @@
+source /home/afeser/Automated-Software-Testing-Project/ansible2/hacking/env-setup
+
 module_names="apt_key async_wrapper hostname known_hosts service_facts systemd yum apt copy iptables pip service unarchive utils"
 
 report_file=/home/afeser/ansible2/test/results/reports/coverage/index.html

@@ -1,0 +1,10 @@
+---
+- name: Hostname test
+  hosts: all
+  remote_user: root
+
+  tasks:
+  - name: test hostname change
+    ansible.builtin.hostname:
+      name: web01
+

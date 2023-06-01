@@ -10,7 +10,8 @@ from ansible.modules.find import pfilter
 import os
 import sys
 from module_adapters.find import pfilter
-from iptables_simulation_script import test_iptables
+from auto_generated_module_codes.iptables import test_iptables
+from auto_generated_module_codes.apt import test_apt
 
 import afl
 afl.init()
@@ -19,6 +20,7 @@ afl.init()
 
 # If you overwrite this variable, AFL complains about no instrumentation found
 path = sys.argv[1] #sys.stdin.read()
+
 
 fail = False
 number_args = 0
@@ -48,7 +50,16 @@ if not fail:
         # pfilter(arguments)
         arguments = [arg.rstrip() for arg in arguments]
         print('Number arguments', number_args)
-        test_iptables(arguments)
+
+        # I add if statement here because this is controlled by a bash script
+        # I don't want to mess up output folders by supplying `iptables` binary to `apt` inputs/ouputs for example
+        # Therefore, please add new tests here
+        if sys.argv[2] == 'apt':
+            test_apt(arguments)
+        elif sys.argv[2] == 'iptables':
+            test_iptables(arguments)
+        else:
+            print('Nothing to do!')
 
         
 
