@@ -1,0 +1,11 @@
+ansible_yum-autoupdate
+
+
+
+
+
+yum autoupdate
+
+absent
+
+

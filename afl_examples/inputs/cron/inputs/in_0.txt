@@ -1,0 +1,11 @@
+
+
+5,2
+
+ls -alh > /dev/null
+0
+check dirs
+
+
+
+

@@ -1,9 +1,16 @@
 import os
+import sys
 import yaml
+
+
+if len(sys.argv) != 2:
+    print('Use: python3 create_inputs.py systemd')
+    sys.exit(0)
+
 
 # Please change to what you need
 # This needs to be same as the name of the module inside yaml file (e.g. "apt:")
-TARGET_DIRECTORY = 'systemd'
+TARGET_DIRECTORY = sys.argv[1]
 
 # You can change if you need
 SOURCE_YAML = 'sample_website.yaml'

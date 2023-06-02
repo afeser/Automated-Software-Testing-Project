@@ -1,0 +1,11 @@
+ansible_yum-autoupdate
+
+12
+
+YUMINTERACTIVE=0 /usr/sbin/yum-autoupdate
+0
+yum autoupdate
+
+
+root
+2
