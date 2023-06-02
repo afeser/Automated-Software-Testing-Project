@@ -3,7 +3,7 @@ import yaml
 
 # Please change to what you need
 # This needs to be same as the name of the module inside yaml file (e.g. "apt:")
-TARGET_DIRECTORY = 'apt_key'
+TARGET_DIRECTORY = 'systemd'
 
 # You can change if you need
 SOURCE_YAML = 'sample_website.yaml'

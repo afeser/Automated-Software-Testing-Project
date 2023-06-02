@@ -1,4 +1,4 @@
-module_name=iptables
+module_name=systemd
 num_cores=4
 
 # start master anyway...
