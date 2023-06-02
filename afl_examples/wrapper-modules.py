@@ -12,6 +12,7 @@ import sys
 from module_adapters.find import pfilter
 from auto_generated_module_codes.iptables import test_iptables
 from auto_generated_module_codes.apt import test_apt
+from auto_generated_module_codes.apt_key import test_apt_key
 
 import afl
 afl.init()
@@ -58,6 +59,8 @@ if not fail:
             test_apt(arguments)
         elif sys.argv[2] == 'iptables':
             test_iptables(arguments)
+        elif sys.argv[2] == 'apt_key':
+            test_apt_key(arguments)
         else:
             print('Nothing to do!')
 

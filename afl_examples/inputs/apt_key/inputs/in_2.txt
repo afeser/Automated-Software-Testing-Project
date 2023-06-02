@@ -1,0 +1,7 @@
+
+
+9FED2BCBDCD29CDF762678CBAED4B06F473041FA
+
+
+present
+https://ftp-master.debian.org/keys/archive-key-6.0.asc

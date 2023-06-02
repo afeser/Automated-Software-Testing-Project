@@ -7,11 +7,11 @@ sys.path.append('/home/afeser/Automated-Software-Testing-Project/ansible2/test/'
 from units.modules.utils import AnsibleExitJson, AnsibleFailJson, ModuleTestCase, set_module_args
 from ansible.module_utils import basic
 from units.compat.mock import patch
-from ansible.modules import apt
+from ansible.modules import apt_key
 
 
-def test_apt(vars):
-    if len(vars) != 12:
+def test_apt_key(vars):
+    if len(vars) != 7:
         return
     
     def get_bin_path(*args, **kwargs):
@@ -23,23 +23,18 @@ def test_apt(vars):
 
     mock_get_bin_path = patch.object(basic.AnsibleModule, 'get_bin_path', get_bin_path)
     mock_get_bin_path.start()
-    # mock_get_iptables_version = patch.object(apt, 'get_apt_version', get_iptables_version)
+    # mock_get_iptables_version = patch.object(apt_key, 'get_apt_key_version', get_iptables_version)
     # mock_get_iptables_version.start()
     
-    # AUTO GENERATED CODE START -----------------------------------------------------------------
+        # AUTO GENERATED CODE START -----------------------------------------------------------------
     temp_args ={
-        'autoclean': vars[0],
-        'autoremove': vars[1],
-        'cache_valid_time': vars[2],
-        'deb': vars[3],
-        'default_release': vars[4],
-        'dpkg_options': vars[5],
-        'install_recommends': vars[6],
-        'name': vars[7],
-        'pkg': vars[8],
-        'state': vars[9],
-        'update_cache': vars[10],
-        'upgrade': vars[11],
+        'data': vars[0],
+        'file': vars[1],
+        'id': vars[2],
+        'keyring': vars[3],
+        'keyserver': vars[4],
+        'state': vars[5],
+        'url': vars[6],
     }
     remove_keys = []
     for key in temp_args:
@@ -51,6 +46,7 @@ def test_apt(vars):
     # AUTO GENERATED CODE END -------------------------------------------------------------------
 
 
+
     commands_results = [
         (0, '', '') for x in range(100)
     ]
@@ -58,7 +54,7 @@ def test_apt(vars):
     with patch.object(basic.AnsibleModule, 'run_command') as run_command:
         run_command.side_effect = commands_results
         try:
-            apt.main()
+            apt_key.main()
         except AnsibleExitJson as result:
             print(result)
 
