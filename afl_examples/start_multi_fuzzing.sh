@@ -1,5 +1,5 @@
 module_name=iptables
-num_cores=8
+num_cores=4
 
 # start master anyway...
 tmux new-session -d -s $module_name.01master "source /home/afeser/.bashrc; py-afl-fuzz -t 10000 -m 5000  -i ./inputs/$module_name/inputs -o outputs/$module_name -M fuzzer0 -- python3 ./wrapper-modules.py  @@ $module_name"
