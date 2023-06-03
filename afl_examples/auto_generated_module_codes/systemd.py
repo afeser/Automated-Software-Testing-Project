@@ -49,7 +49,7 @@ def test_systemd(vars):
     if len(vars) == 6:
         try:
             out = subprocess.check_output(['systemctl', 'show', temp_args['name']]).decode()
-        except KeyError:
+        except Exception:
             out = ''
     else:
         out = '\n'.join(vars[6:])
