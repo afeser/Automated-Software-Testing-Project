@@ -48,7 +48,21 @@ def test_apt_key(vars):
 
 
     commands_results = [
-        (0, '', '') for x in range(100)
+        (0, """
+Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)).
+Executing: /tmp/apt-key-gpghome.bbTWyeyEz2/gpg.1.sh --list-public-keys --keyid-format=long
+/tmp/apt-key-gpghome.bbTWyeyEz2/pubring.gpg
+-------------------------------------------
+pub   rsa4096/D94AA3F0EFE21092 2012-05-11 [SC]
+      843938DF228D22F7B3742BC0D94AA3F0EFE21092
+uid                 [ unknown] Ubuntu CD Image Automatic Signing Key (2012) <cdimage@ubuntu.com>
+
+pub   rsa4096/871920D1991BC93C 2018-09-17 [SC]
+      F6ECB3762474EDA9D21B7022871920D1991BC93C
+uid                 [ unknown] Ubuntu Archive Automatic Signing Key (2018) <ftpmaster@ubuntu.com>
+
+
+""", '') for x in range(100)
     ]
 
     with patch.object(basic.AnsibleModule, 'run_command') as run_command:
