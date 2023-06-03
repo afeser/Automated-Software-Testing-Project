@@ -33,9 +33,9 @@ PyObject *module___main__;
 PyDictObject *moduledict___main__;
 
 /* The declarations of module constants used, if any. */
-static PyObject *mod_consts[9];
+static PyObject *mod_consts[8];
 #ifndef __NUITKA_NO_ASSERT__
-static Py_hash_t mod_consts_hash[9];
+static Py_hash_t mod_consts_hash[8];
 #endif
 
 static PyObject *module_filename_obj = NULL;
@@ -50,7 +50,7 @@ static void createModuleConstants(void) {
         constants_created = true;
 
 #ifndef __NUITKA_NO_ASSERT__
-        for (int i = 0; i < 9; i++) {
+        for (int i = 0; i < 8; i++) {
             mod_consts_hash[i] = DEEP_HASH(mod_consts[i]);
         }
 #endif
@@ -70,7 +70,7 @@ void checkModuleConstants___main__(void) {
     // The module may not have been used at all, then ignore this.
     if (constants_created == false) return;
 
-    for (int i = 0; i < 9; i++) {
+    for (int i = 0; i < 8; i++) {
         assert(mod_consts_hash[i] == DEEP_HASH(mod_consts[i]));
         CHECK_OBJECT_DEEP(mod_consts[i]);
     }
@@ -83,8 +83,8 @@ static PyCodeObject *codeobj_69e9bbff84ed63d5059e10a9bc6c9ea7;
 PyCodeObject *codeobj_main = NULL;
 
 static void createModuleCodeObjects(void) {
-    module_filename_obj = mod_consts[2]; CHECK_OBJECT(module_filename_obj);
-    codeobj_69e9bbff84ed63d5059e10a9bc6c9ea7 = MAKE_CODE_OBJECT(module_filename_obj, 1, 0, mod_consts[8], mod_consts[8], NULL, NULL, 0, 0, 0);
+    module_filename_obj = mod_consts[1]; CHECK_OBJECT(module_filename_obj);
+    codeobj_69e9bbff84ed63d5059e10a9bc6c9ea7 = MAKE_CODE_OBJECT(module_filename_obj, 1, CO_NOFREE, mod_consts[7], mod_consts[7], NULL, NULL, 0, 0, 0);
     codeobj_main = codeobj_69e9bbff84ed63d5059e10a9bc6c9ea7;
 }
 
@@ -471,48 +471,32 @@ PyObject *modulecode___main__(PyObject *module, struct Nuitka_MetaPathBasedLoade
         }
     }
     {
-        PyObject *tmp_imported_value_2;
-        frame_69e9bbff84ed63d5059e10a9bc6c9ea7->m_frame.f_lineno = 1;
-        tmp_imported_value_2 = IMPORT_MODULE1(mod_consts[0]);
-        if (tmp_imported_value_2 == NULL) {
-            assert(ERROR_OCCURRED());
-
-            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
-
-
-            exception_lineno = 1;
-
-            goto frame_exception_exit_1;
-        }
-        Py_DECREF(tmp_imported_value_2);
-    }
-    {
         PyObject *tmp_assign_source_1;
         tmp_assign_source_1 = Py_None;
-        UPDATE_STRING_DICT0(moduledict___main__, (Nuitka_StringObject *)mod_consts[1], tmp_assign_source_1);
+        UPDATE_STRING_DICT0(moduledict___main__, (Nuitka_StringObject *)mod_consts[0], tmp_assign_source_1);
     }
     {
         PyObject *tmp_assign_source_2;
-        tmp_assign_source_2 = mod_consts[2];
-        UPDATE_STRING_DICT0(moduledict___main__, (Nuitka_StringObject *)mod_consts[3], tmp_assign_source_2);
+        tmp_assign_source_2 = mod_consts[1];
+        UPDATE_STRING_DICT0(moduledict___main__, (Nuitka_StringObject *)mod_consts[2], tmp_assign_source_2);
     }
     {
         PyObject *tmp_assign_source_3;
         tmp_assign_source_3 = Py_None;
-        UPDATE_STRING_DICT0(moduledict___main__, (Nuitka_StringObject *)mod_consts[4], tmp_assign_source_3);
+        UPDATE_STRING_DICT0(moduledict___main__, (Nuitka_StringObject *)mod_consts[3], tmp_assign_source_3);
     }
     {
         PyObject *tmp_assign_source_4;
         tmp_assign_source_4 = MAKE_DICT_EMPTY();
-        UPDATE_STRING_DICT1(moduledict___main__, (Nuitka_StringObject *)mod_consts[5], tmp_assign_source_4);
+        UPDATE_STRING_DICT1(moduledict___main__, (Nuitka_StringObject *)mod_consts[4], tmp_assign_source_4);
     }
     {
         PyObject *tmp_called_value_1;
         PyObject *tmp_call_result_1;
-        tmp_called_value_1 = LOOKUP_BUILTIN(mod_consts[6]);
+        tmp_called_value_1 = LOOKUP_BUILTIN(mod_consts[5]);
         assert(tmp_called_value_1 != NULL);
         frame_69e9bbff84ed63d5059e10a9bc6c9ea7->m_frame.f_lineno = 1;
-        tmp_call_result_1 = CALL_FUNCTION_WITH_POSARGS1(tmp_called_value_1, mod_consts[7]);
+        tmp_call_result_1 = CALL_FUNCTION_WITH_POSARGS1(tmp_called_value_1, mod_consts[6]);
 
         if (tmp_call_result_1 == NULL) {
             assert(ERROR_OCCURRED());

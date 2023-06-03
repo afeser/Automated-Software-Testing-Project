@@ -1,0 +1,490 @@
+[2023-06-03T18:19:56.118104 54735] === CCACHE 4.6.1 STARTED =========================================
+[2023-06-03T18:19:56.118104 54735] Config: (default) absolute_paths_in_stderr = false
+[2023-06-03T18:19:56.118104 54735] Config: (default) base_dir = 
+[2023-06-03T18:19:56.118104 54735] Config: (environment) cache_dir = /home/afeser/.cache/Nuitka/ccache
+[2023-06-03T18:19:56.118104 54735] Config: (default) compiler = 
+[2023-06-03T18:19:56.118104 54735] Config: (default) compiler_check = mtime
+[2023-06-03T18:19:56.118104 54735] Config: (default) compiler_type = auto
+[2023-06-03T18:19:56.118104 54735] Config: (default) compression = true
+[2023-06-03T18:19:56.118104 54735] Config: (default) compression_level = 0
+[2023-06-03T18:19:56.118104 54735] Config: (default) cpp_extension = 
+[2023-06-03T18:19:56.118104 54735] Config: (default) debug = false
+[2023-06-03T18:19:56.118104 54735] Config: (default) debug_dir = 
+[2023-06-03T18:19:56.118104 54735] Config: (default) depend_mode = false
+[2023-06-03T18:19:56.118104 54735] Config: (default) direct_mode = true
+[2023-06-03T18:19:56.118104 54735] Config: (default) disable = false
+[2023-06-03T18:19:56.118104 54735] Config: (default) extra_files_to_hash = 
+[2023-06-03T18:19:56.118104 54735] Config: (default) file_clone = false
+[2023-06-03T18:19:56.118104 54735] Config: (default) hard_link = false
+[2023-06-03T18:19:56.118104 54735] Config: (default) hash_dir = true
+[2023-06-03T18:19:56.118104 54735] Config: (default) ignore_headers_in_manifest = 
+[2023-06-03T18:19:56.118104 54735] Config: (default) ignore_options = 
+[2023-06-03T18:19:56.118104 54735] Config: (default) inode_cache = false
+[2023-06-03T18:19:56.118104 54735] Config: (default) keep_comments_cpp = false
+[2023-06-03T18:19:56.118104 54735] Config: (default) limit_multiple = 0.8
+[2023-06-03T18:19:56.118104 54735] Config: (environment) log_file = /home/afeser/Automated-Software-Testing-Project/sym/a/deneme.build/ccache-54725.txt
+[2023-06-03T18:19:56.118104 54735] Config: (default) max_files = 0
+[2023-06-03T18:19:56.118104 54735] Config: (default) max_size = 5.0G
+[2023-06-03T18:19:56.118104 54735] Config: (default) namespace = 
+[2023-06-03T18:19:56.118104 54735] Config: (default) path = 
+[2023-06-03T18:19:56.118104 54735] Config: (default) pch_external_checksum = false
+[2023-06-03T18:19:56.118104 54735] Config: (default) prefix_command = 
+[2023-06-03T18:19:56.118104 54735] Config: (default) prefix_command_cpp = 
+[2023-06-03T18:19:56.118104 54735] Config: (default) read_only = false
+[2023-06-03T18:19:56.118104 54735] Config: (default) read_only_direct = false
+[2023-06-03T18:19:56.118104 54735] Config: (default) recache = false
+[2023-06-03T18:19:56.118104 54735] Config: (default) reshare = false
+[2023-06-03T18:19:56.118104 54735] Config: (default) run_second_cpp = true
+[2023-06-03T18:19:56.118104 54735] Config: (default) secondary_storage = 
+[2023-06-03T18:19:56.118104 54735] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-06-03T18:19:56.118104 54735] Config: (default) stats = true
+[2023-06-03T18:19:56.118104 54735] Config: (default) stats_log = 
+[2023-06-03T18:19:56.118104 54735] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-06-03T18:19:56.118104 54735] Config: (default) umask = 
+[2023-06-03T18:19:56.118268 54735] Command line: /usr/bin/ccache /usr/bin/clang -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src __constants.c
+[2023-06-03T18:19:56.118276 54735] Hostname: ubuntuast
+[2023-06-03T18:19:56.118280 54735] Working directory: /home/afeser/Automated-Software-Testing-Project/sym/a/deneme.build
+[2023-06-03T18:19:56.118283 54735] Compiler type: other
+[2023-06-03T18:19:56.118402 54735] Source file: __constants.c
+[2023-06-03T18:19:56.118416 54735] Object file: __constants.o
+[2023-06-03T18:19:56.118451 54735] Trying direct lookup
+[2023-06-03T18:19:56.118520 54735] No 05efu9f6obiugn89ee6jtkoe2r0uc9u58 in primary storage
+[2023-06-03T18:19:56.118595 54735] Running preprocessor
+[2023-06-03T18:19:56.118612 54735] Executing /usr/bin/clang -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src -E __constants.c
+[2023-06-03T18:19:56.143672 54743] === CCACHE 4.6.1 STARTED =========================================
+[2023-06-03T18:19:56.143672 54743] Config: (default) absolute_paths_in_stderr = false
+[2023-06-03T18:19:56.143672 54743] Config: (default) base_dir = 
+[2023-06-03T18:19:56.143672 54743] Config: (environment) cache_dir = /home/afeser/.cache/Nuitka/ccache
+[2023-06-03T18:19:56.143672 54743] Config: (default) compiler = 
+[2023-06-03T18:19:56.143672 54743] Config: (default) compiler_check = mtime
+[2023-06-03T18:19:56.143672 54743] Config: (default) compiler_type = auto
+[2023-06-03T18:19:56.143672 54743] Config: (default) compression = true
+[2023-06-03T18:19:56.143672 54743] Config: (default) compression_level = 0
+[2023-06-03T18:19:56.143672 54743] Config: (default) cpp_extension = 
+[2023-06-03T18:19:56.143672 54743] Config: (default) debug = false
+[2023-06-03T18:19:56.143672 54743] Config: (default) debug_dir = 
+[2023-06-03T18:19:56.143672 54743] Config: (default) depend_mode = false
+[2023-06-03T18:19:56.143672 54743] Config: (default) direct_mode = true
+[2023-06-03T18:19:56.143672 54743] Config: (environment) disable = true
+[2023-06-03T18:19:56.143672 54743] Config: (default) extra_files_to_hash = 
+[2023-06-03T18:19:56.143672 54743] Config: (default) file_clone = false
+[2023-06-03T18:19:56.143672 54743] Config: (default) hard_link = false
+[2023-06-03T18:19:56.143672 54743] Config: (default) hash_dir = true
+[2023-06-03T18:19:56.143672 54743] Config: (default) ignore_headers_in_manifest = 
+[2023-06-03T18:19:56.143672 54743] Config: (default) ignore_options = 
+[2023-06-03T18:19:56.143672 54743] Config: (default) inode_cache = false
+[2023-06-03T18:19:56.143672 54743] Config: (default) keep_comments_cpp = false
+[2023-06-03T18:19:56.143672 54743] Config: (default) limit_multiple = 0.8
+[2023-06-03T18:19:56.143672 54743] Config: (environment) log_file = /home/afeser/Automated-Software-Testing-Project/sym/a/deneme.build/ccache-54725.txt
+[2023-06-03T18:19:56.143672 54743] Config: (default) max_files = 0
+[2023-06-03T18:19:56.143672 54743] Config: (default) max_size = 5.0G
+[2023-06-03T18:19:56.143672 54743] Config: (default) namespace = 
+[2023-06-03T18:19:56.143672 54743] Config: (default) path = 
+[2023-06-03T18:19:56.143672 54743] Config: (default) pch_external_checksum = false
+[2023-06-03T18:19:56.143672 54743] Config: (default) prefix_command = 
+[2023-06-03T18:19:56.143672 54743] Config: (default) prefix_command_cpp = 
+[2023-06-03T18:19:56.143672 54743] Config: (default) read_only = false
+[2023-06-03T18:19:56.143672 54743] Config: (default) read_only_direct = false
+[2023-06-03T18:19:56.143672 54743] Config: (default) recache = false
+[2023-06-03T18:19:56.143672 54743] Config: (default) reshare = false
+[2023-06-03T18:19:56.143672 54743] Config: (default) run_second_cpp = true
+[2023-06-03T18:19:56.143672 54743] Config: (default) secondary_storage = 
+[2023-06-03T18:19:56.143672 54743] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-06-03T18:19:56.143672 54743] Config: (default) stats = true
+[2023-06-03T18:19:56.143672 54743] Config: (default) stats_log = 
+[2023-06-03T18:19:56.143672 54743] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-06-03T18:19:56.143672 54743] Config: (default) umask = 
+[2023-06-03T18:19:56.143845 54743] ccache is disabled
+[2023-06-03T18:19:56.143881 54743] Failed; falling back to running the real compiler
+[2023-06-03T18:19:56.143892 54743] Executing /usr/bin/clang -o __constants_data.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src __constants_data.c
+[2023-06-03T18:19:56.143898 54743] Result: disabled
+[2023-06-03T18:19:56.144618 54744] === CCACHE 4.6.1 STARTED =========================================
+[2023-06-03T18:19:56.144728 54735] Got result key from preprocessor
+[2023-06-03T18:19:56.144618 54744] Config: (default) absolute_paths_in_stderr = false
+[2023-06-03T18:19:56.144618 54744] Config: (default) base_dir = 
+[2023-06-03T18:19:56.144618 54744] Config: (environment) cache_dir = /home/afeser/.cache/Nuitka/ccache
+[2023-06-03T18:19:56.144618 54744] Config: (default) compiler = 
+[2023-06-03T18:19:56.144618 54744] Config: (default) compiler_check = mtime
+[2023-06-03T18:19:56.144618 54744] Config: (default) compiler_type = auto
+[2023-06-03T18:19:56.144618 54744] Config: (default) compression = true
+[2023-06-03T18:19:56.144618 54744] Config: (default) compression_level = 0
+[2023-06-03T18:19:56.144618 54744] Config: (default) cpp_extension = 
+[2023-06-03T18:19:56.144618 54744] Config: (default) debug = false
+[2023-06-03T18:19:56.144618 54744] Config: (default) debug_dir = 
+[2023-06-03T18:19:56.144618 54744] Config: (default) depend_mode = false
+[2023-06-03T18:19:56.144618 54744] Config: (default) direct_mode = true
+[2023-06-03T18:19:56.144618 54744] Config: (default) disable = false
+[2023-06-03T18:19:56.144618 54744] Config: (default) extra_files_to_hash = 
+[2023-06-03T18:19:56.144618 54744] Config: (default) file_clone = false
+[2023-06-03T18:19:56.144618 54744] Config: (default) hard_link = false
+[2023-06-03T18:19:56.144618 54744] Config: (default) hash_dir = true
+[2023-06-03T18:19:56.144618 54744] Config: (default) ignore_headers_in_manifest = 
+[2023-06-03T18:19:56.144618 54744] Config: (default) ignore_options = 
+[2023-06-03T18:19:56.144618 54744] Config: (default) inode_cache = false
+[2023-06-03T18:19:56.144618 54744] Config: (default) keep_comments_cpp = false
+[2023-06-03T18:19:56.144618 54744] Config: (default) limit_multiple = 0.8
+[2023-06-03T18:19:56.144618 54744] Config: (environment) log_file = /home/afeser/Automated-Software-Testing-Project/sym/a/deneme.build/ccache-54725.txt
+[2023-06-03T18:19:56.144618 54744] Config: (default) max_files = 0
+[2023-06-03T18:19:56.144618 54744] Config: (default) max_size = 5.0G
+[2023-06-03T18:19:56.144618 54744] Config: (default) namespace = 
+[2023-06-03T18:19:56.144618 54744] Config: (default) path = 
+[2023-06-03T18:19:56.144618 54744] Config: (default) pch_external_checksum = false
+[2023-06-03T18:19:56.144618 54744] Config: (default) prefix_command = 
+[2023-06-03T18:19:56.144618 54744] Config: (default) prefix_command_cpp = 
+[2023-06-03T18:19:56.144618 54744] Config: (default) read_only = false
+[2023-06-03T18:19:56.144618 54744] Config: (default) read_only_direct = false
+[2023-06-03T18:19:56.144618 54744] Config: (default) recache = false
+[2023-06-03T18:19:56.144618 54744] Config: (default) reshare = false
+[2023-06-03T18:19:56.144618 54744] Config: (default) run_second_cpp = true
+[2023-06-03T18:19:56.144618 54744] Config: (default) secondary_storage = 
+[2023-06-03T18:19:56.144618 54744] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-06-03T18:19:56.144618 54744] Config: (default) stats = true
+[2023-06-03T18:19:56.144618 54744] Config: (default) stats_log = 
+[2023-06-03T18:19:56.144618 54744] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-06-03T18:19:56.144618 54744] Config: (default) umask = 
+[2023-06-03T18:19:56.144763 54744] Command line: /usr/bin/ccache /usr/bin/clang -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src __helpers.c
+[2023-06-03T18:19:56.144794 54735] No bc8bbh2jao3gip7i60nba9s5dte8b4nr0 in primary storage
+[2023-06-03T18:19:56.144804 54744] Hostname: ubuntuast
+[2023-06-03T18:19:56.144810 54744] Working directory: /home/afeser/Automated-Software-Testing-Project/sym/a/deneme.build
+[2023-06-03T18:19:56.144815 54744] Compiler type: other
+[2023-06-03T18:19:56.144820 54735] Running real compiler
+[2023-06-03T18:19:56.144885 54735] Executing /usr/bin/clang -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src -c -o __constants.o __constants.c
+[2023-06-03T18:19:56.144978 54744] Source file: __helpers.c
+[2023-06-03T18:19:56.144987 54744] Object file: __helpers.o
+[2023-06-03T18:19:56.145011 54744] Trying direct lookup
+[2023-06-03T18:19:56.145114 54744] No cd80j5o368784enq03q30dcc29vo5p49k in primary storage
+[2023-06-03T18:19:56.145223 54744] Running preprocessor
+[2023-06-03T18:19:56.145235 54744] Executing /usr/bin/clang -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src -E __helpers.c
+[2023-06-03T18:19:56.159508 54749] === CCACHE 4.6.1 STARTED =========================================
+[2023-06-03T18:19:56.159508 54749] Config: (default) absolute_paths_in_stderr = false
+[2023-06-03T18:19:56.159508 54749] Config: (default) base_dir = 
+[2023-06-03T18:19:56.159508 54749] Config: (environment) cache_dir = /home/afeser/.cache/Nuitka/ccache
+[2023-06-03T18:19:56.159508 54749] Config: (default) compiler = 
+[2023-06-03T18:19:56.159508 54749] Config: (default) compiler_check = mtime
+[2023-06-03T18:19:56.159508 54749] Config: (default) compiler_type = auto
+[2023-06-03T18:19:56.159508 54749] Config: (default) compression = true
+[2023-06-03T18:19:56.159508 54749] Config: (default) compression_level = 0
+[2023-06-03T18:19:56.159508 54749] Config: (default) cpp_extension = 
+[2023-06-03T18:19:56.159508 54749] Config: (default) debug = false
+[2023-06-03T18:19:56.159508 54749] Config: (default) debug_dir = 
+[2023-06-03T18:19:56.159508 54749] Config: (default) depend_mode = false
+[2023-06-03T18:19:56.159508 54749] Config: (default) direct_mode = true
+[2023-06-03T18:19:56.159508 54749] Config: (default) disable = false
+[2023-06-03T18:19:56.159508 54749] Config: (default) extra_files_to_hash = 
+[2023-06-03T18:19:56.159508 54749] Config: (default) file_clone = false
+[2023-06-03T18:19:56.159508 54749] Config: (default) hard_link = false
+[2023-06-03T18:19:56.159508 54749] Config: (default) hash_dir = true
+[2023-06-03T18:19:56.159508 54749] Config: (default) ignore_headers_in_manifest = 
+[2023-06-03T18:19:56.159508 54749] Config: (default) ignore_options = 
+[2023-06-03T18:19:56.159508 54749] Config: (default) inode_cache = false
+[2023-06-03T18:19:56.159508 54749] Config: (default) keep_comments_cpp = false
+[2023-06-03T18:19:56.159508 54749] Config: (default) limit_multiple = 0.8
+[2023-06-03T18:19:56.159508 54749] Config: (environment) log_file = /home/afeser/Automated-Software-Testing-Project/sym/a/deneme.build/ccache-54725.txt
+[2023-06-03T18:19:56.159508 54749] Config: (default) max_files = 0
+[2023-06-03T18:19:56.159508 54749] Config: (default) max_size = 5.0G
+[2023-06-03T18:19:56.159508 54749] Config: (default) namespace = 
+[2023-06-03T18:19:56.159508 54749] Config: (default) path = 
+[2023-06-03T18:19:56.159508 54749] Config: (default) pch_external_checksum = false
+[2023-06-03T18:19:56.159508 54749] Config: (default) prefix_command = 
+[2023-06-03T18:19:56.159508 54749] Config: (default) prefix_command_cpp = 
+[2023-06-03T18:19:56.159508 54749] Config: (default) read_only = false
+[2023-06-03T18:19:56.159508 54749] Config: (default) read_only_direct = false
+[2023-06-03T18:19:56.159508 54749] Config: (default) recache = false
+[2023-06-03T18:19:56.159508 54749] Config: (default) reshare = false
+[2023-06-03T18:19:56.159508 54749] Config: (default) run_second_cpp = true
+[2023-06-03T18:19:56.159508 54749] Config: (default) secondary_storage = 
+[2023-06-03T18:19:56.159508 54749] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-06-03T18:19:56.159508 54749] Config: (default) stats = true
+[2023-06-03T18:19:56.159508 54749] Config: (default) stats_log = 
+[2023-06-03T18:19:56.159508 54749] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-06-03T18:19:56.159508 54749] Config: (default) umask = 
+[2023-06-03T18:19:56.159666 54749] Command line: /usr/bin/ccache /usr/bin/clang -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src __loader.c
+[2023-06-03T18:19:56.159704 54749] Hostname: ubuntuast
+[2023-06-03T18:19:56.159709 54749] Working directory: /home/afeser/Automated-Software-Testing-Project/sym/a/deneme.build
+[2023-06-03T18:19:56.159713 54749] Compiler type: other
+[2023-06-03T18:19:56.159849 54749] Source file: __loader.c
+[2023-06-03T18:19:56.159869 54749] Object file: __loader.o
+[2023-06-03T18:19:56.159896 54749] Trying direct lookup
+[2023-06-03T18:19:56.159984 54749] No c77er7epu42nvi2lh7prj67el313k44nc in primary storage
+[2023-06-03T18:19:56.160126 54749] Running preprocessor
+[2023-06-03T18:19:56.160142 54749] Executing /usr/bin/clang -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src -E __loader.c
+[2023-06-03T18:19:56.175656 54735] Compiler didn't produce an object file
+[2023-06-03T18:19:56.175718 54735] Failed; falling back to running the real compiler
+[2023-06-03T18:19:56.175737 54735] Executing /usr/bin/clang -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src __constants.c
+[2023-06-03T18:19:56.175749 54735] Result: compiler_produced_no_output
+[2023-06-03T18:19:56.175752 54735] Result: direct_cache_miss
+[2023-06-03T18:19:56.175755 54735] Result: preprocessed_cache_miss
+[2023-06-03T18:19:56.175772 54735] Result: primary_storage_miss
+[2023-06-03T18:19:56.175775 54735] Result: primary_storage_miss
+[2023-06-03T18:19:56.175872 54735] lockfile_acquire: symlink /home/afeser/.cache/Nuitka/ccache/c/f/stats.lock: No such file or directory
+[2023-06-03T18:19:56.175972 54744] Got result key from preprocessor
+[2023-06-03T18:19:56.175997 54735] Acquired lock /home/afeser/.cache/Nuitka/ccache/c/f/stats.lock
+[2023-06-03T18:19:56.176020 54744] No bc8bbh2jao3gip7i60nba9s5dte8b4nr0 in primary storage
+[2023-06-03T18:19:56.176033 54744] Running real compiler
+[2023-06-03T18:19:56.176111 54744] Executing /usr/bin/clang -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src -c -o __helpers.o __helpers.c
+[2023-06-03T18:19:56.176233 54735] Releasing lock /home/afeser/.cache/Nuitka/ccache/c/f/stats.lock
+[2023-06-03T18:19:56.176261 54735] Unlink /home/afeser/.cache/Nuitka/ccache/c/f/stats.lock
+[2023-06-03T18:19:56.176287 54735] Unlink /run/user/1000/ccache-tmp/tmp.stderr.pMCsff
+[2023-06-03T18:19:56.176298 54735] Unlink /run/user/1000/ccache-tmp/tmp.stdout.SzYg45
+[2023-06-03T18:19:56.176307 54735] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.xZqkaU
+[2023-06-03T18:19:56.176315 54735] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.xFOg0a.i
+[2023-06-03T18:19:56.176322 54735] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.xFOg0a
+[2023-06-03T18:19:56.200841 54749] Got result key from preprocessor
+[2023-06-03T18:19:56.200925 54749] No bc8bbh2jao3gip7i60nba9s5dte8b4nr0 in primary storage
+[2023-06-03T18:19:56.200939 54749] Running real compiler
+[2023-06-03T18:19:56.201032 54749] Executing /usr/bin/clang -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src -c -o __loader.o __loader.c
+[2023-06-03T18:19:56.208500 54763] === CCACHE 4.6.1 STARTED =========================================
+[2023-06-03T18:19:56.208500 54763] Config: (default) absolute_paths_in_stderr = false
+[2023-06-03T18:19:56.208500 54763] Config: (default) base_dir = 
+[2023-06-03T18:19:56.208500 54763] Config: (environment) cache_dir = /home/afeser/.cache/Nuitka/ccache
+[2023-06-03T18:19:56.208500 54763] Config: (default) compiler = 
+[2023-06-03T18:19:56.208500 54763] Config: (default) compiler_check = mtime
+[2023-06-03T18:19:56.208500 54763] Config: (default) compiler_type = auto
+[2023-06-03T18:19:56.208500 54763] Config: (default) compression = true
+[2023-06-03T18:19:56.208500 54763] Config: (default) compression_level = 0
+[2023-06-03T18:19:56.208500 54763] Config: (default) cpp_extension = 
+[2023-06-03T18:19:56.208500 54763] Config: (default) debug = false
+[2023-06-03T18:19:56.208500 54763] Config: (default) debug_dir = 
+[2023-06-03T18:19:56.208500 54763] Config: (default) depend_mode = false
+[2023-06-03T18:19:56.208500 54763] Config: (default) direct_mode = true
+[2023-06-03T18:19:56.208500 54763] Config: (default) disable = false
+[2023-06-03T18:19:56.208500 54763] Config: (default) extra_files_to_hash = 
+[2023-06-03T18:19:56.208500 54763] Config: (default) file_clone = false
+[2023-06-03T18:19:56.208500 54763] Config: (default) hard_link = false
+[2023-06-03T18:19:56.208500 54763] Config: (default) hash_dir = true
+[2023-06-03T18:19:56.208500 54763] Config: (default) ignore_headers_in_manifest = 
+[2023-06-03T18:19:56.208500 54763] Config: (default) ignore_options = 
+[2023-06-03T18:19:56.208500 54763] Config: (default) inode_cache = false
+[2023-06-03T18:19:56.208500 54763] Config: (default) keep_comments_cpp = false
+[2023-06-03T18:19:56.208500 54763] Config: (default) limit_multiple = 0.8
+[2023-06-03T18:19:56.208500 54763] Config: (environment) log_file = /home/afeser/Automated-Software-Testing-Project/sym/a/deneme.build/ccache-54725.txt
+[2023-06-03T18:19:56.208500 54763] Config: (default) max_files = 0
+[2023-06-03T18:19:56.208500 54763] Config: (default) max_size = 5.0G
+[2023-06-03T18:19:56.208500 54763] Config: (default) namespace = 
+[2023-06-03T18:19:56.208500 54763] Config: (default) path = 
+[2023-06-03T18:19:56.208500 54763] Config: (default) pch_external_checksum = false
+[2023-06-03T18:19:56.208500 54763] Config: (default) prefix_command = 
+[2023-06-03T18:19:56.208500 54763] Config: (default) prefix_command_cpp = 
+[2023-06-03T18:19:56.208500 54763] Config: (default) read_only = false
+[2023-06-03T18:19:56.208500 54763] Config: (default) read_only_direct = false
+[2023-06-03T18:19:56.208500 54763] Config: (default) recache = false
+[2023-06-03T18:19:56.208500 54763] Config: (default) reshare = false
+[2023-06-03T18:19:56.208500 54763] Config: (default) run_second_cpp = true
+[2023-06-03T18:19:56.208500 54763] Config: (default) secondary_storage = 
+[2023-06-03T18:19:56.208500 54763] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-06-03T18:19:56.208500 54763] Config: (default) stats = true
+[2023-06-03T18:19:56.208500 54763] Config: (default) stats_log = 
+[2023-06-03T18:19:56.208500 54763] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-06-03T18:19:56.208500 54763] Config: (default) umask = 
+[2023-06-03T18:19:56.208629 54763] Command line: /usr/bin/ccache /usr/bin/clang -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src module.__main__.c
+[2023-06-03T18:19:56.208647 54763] Hostname: ubuntuast
+[2023-06-03T18:19:56.208665 54763] Working directory: /home/afeser/Automated-Software-Testing-Project/sym/a/deneme.build
+[2023-06-03T18:19:56.208669 54763] Compiler type: other
+[2023-06-03T18:19:56.208784 54763] Source file: module.__main__.c
+[2023-06-03T18:19:56.208793 54763] Object file: module.__main__.o
+[2023-06-03T18:19:56.208817 54763] Trying direct lookup
+[2023-06-03T18:19:56.208932 54763] No d401br7uuqh470nr2sde9i9e6ebiedbj6 in primary storage
+[2023-06-03T18:19:56.209029 54763] Running preprocessor
+[2023-06-03T18:19:56.209043 54763] Executing /usr/bin/clang -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src -E module.__main__.c
+[2023-06-03T18:19:56.232591 54744] Compiler didn't produce an object file
+[2023-06-03T18:19:56.232662 54744] Failed; falling back to running the real compiler
+[2023-06-03T18:19:56.232679 54744] Executing /usr/bin/clang -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src __helpers.c
+[2023-06-03T18:19:56.232717 54744] Result: compiler_produced_no_output
+[2023-06-03T18:19:56.232724 54744] Result: direct_cache_miss
+[2023-06-03T18:19:56.232728 54744] Result: preprocessed_cache_miss
+[2023-06-03T18:19:56.232732 54744] Result: primary_storage_miss
+[2023-06-03T18:19:56.232735 54744] Result: primary_storage_miss
+[2023-06-03T18:19:56.232877 54744] Acquired lock /home/afeser/.cache/Nuitka/ccache/d/8/stats.lock
+[2023-06-03T18:19:56.233202 54744] Releasing lock /home/afeser/.cache/Nuitka/ccache/d/8/stats.lock
+[2023-06-03T18:19:56.233227 54744] Unlink /home/afeser/.cache/Nuitka/ccache/d/8/stats.lock
+[2023-06-03T18:19:56.233259 54744] Unlink /run/user/1000/ccache-tmp/tmp.stderr.zl0xl3
+[2023-06-03T18:19:56.233267 54744] Unlink /run/user/1000/ccache-tmp/tmp.stdout.m1yY7h
+[2023-06-03T18:19:56.233274 54744] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.vaX76q
+[2023-06-03T18:19:56.233279 54744] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.FdUk4i.i
+[2023-06-03T18:19:56.233285 54744] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.FdUk4i
+[2023-06-03T18:19:56.235574 54749] Compiler didn't produce an object file
+[2023-06-03T18:19:56.235657 54749] Failed; falling back to running the real compiler
+[2023-06-03T18:19:56.235675 54749] Executing /usr/bin/clang -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src __loader.c
+[2023-06-03T18:19:56.235687 54749] Result: compiler_produced_no_output
+[2023-06-03T18:19:56.235692 54749] Result: direct_cache_miss
+[2023-06-03T18:19:56.235696 54749] Result: preprocessed_cache_miss
+[2023-06-03T18:19:56.235700 54749] Result: primary_storage_miss
+[2023-06-03T18:19:56.235703 54749] Result: primary_storage_miss
+[2023-06-03T18:19:56.235819 54749] lockfile_acquire: symlink /home/afeser/.cache/Nuitka/ccache/d/d/stats.lock: No such file or directory
+[2023-06-03T18:19:56.235991 54749] Acquired lock /home/afeser/.cache/Nuitka/ccache/d/d/stats.lock
+[2023-06-03T18:19:56.236294 54749] Releasing lock /home/afeser/.cache/Nuitka/ccache/d/d/stats.lock
+[2023-06-03T18:19:56.236340 54749] Unlink /home/afeser/.cache/Nuitka/ccache/d/d/stats.lock
+[2023-06-03T18:19:56.236369 54749] Unlink /run/user/1000/ccache-tmp/tmp.stderr.qMz4kr
+[2023-06-03T18:19:56.236393 54749] Unlink /run/user/1000/ccache-tmp/tmp.stdout.aq3mCY
+[2023-06-03T18:19:56.236403 54749] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.hIcWoW
+[2023-06-03T18:19:56.236411 54749] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.wV1GbB.i
+[2023-06-03T18:19:56.236418 54749] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.wV1GbB
+[2023-06-03T18:19:56.241456 54775] === CCACHE 4.6.1 STARTED =========================================
+[2023-06-03T18:19:56.241456 54775] Config: (default) absolute_paths_in_stderr = false
+[2023-06-03T18:19:56.241456 54775] Config: (default) base_dir = 
+[2023-06-03T18:19:56.241456 54775] Config: (environment) cache_dir = /home/afeser/.cache/Nuitka/ccache
+[2023-06-03T18:19:56.241456 54775] Config: (default) compiler = 
+[2023-06-03T18:19:56.241456 54775] Config: (default) compiler_check = mtime
+[2023-06-03T18:19:56.241456 54775] Config: (default) compiler_type = auto
+[2023-06-03T18:19:56.241456 54775] Config: (default) compression = true
+[2023-06-03T18:19:56.241456 54775] Config: (default) compression_level = 0
+[2023-06-03T18:19:56.241456 54775] Config: (default) cpp_extension = 
+[2023-06-03T18:19:56.241456 54775] Config: (default) debug = false
+[2023-06-03T18:19:56.241456 54775] Config: (default) debug_dir = 
+[2023-06-03T18:19:56.241456 54775] Config: (default) depend_mode = false
+[2023-06-03T18:19:56.241456 54775] Config: (default) direct_mode = true
+[2023-06-03T18:19:56.241456 54775] Config: (default) disable = false
+[2023-06-03T18:19:56.241456 54775] Config: (default) extra_files_to_hash = 
+[2023-06-03T18:19:56.241456 54775] Config: (default) file_clone = false
+[2023-06-03T18:19:56.241456 54775] Config: (default) hard_link = false
+[2023-06-03T18:19:56.241456 54775] Config: (default) hash_dir = true
+[2023-06-03T18:19:56.241456 54775] Config: (default) ignore_headers_in_manifest = 
+[2023-06-03T18:19:56.241456 54775] Config: (default) ignore_options = 
+[2023-06-03T18:19:56.241456 54775] Config: (default) inode_cache = false
+[2023-06-03T18:19:56.241456 54775] Config: (default) keep_comments_cpp = false
+[2023-06-03T18:19:56.241456 54775] Config: (default) limit_multiple = 0.8
+[2023-06-03T18:19:56.241456 54775] Config: (environment) log_file = /home/afeser/Automated-Software-Testing-Project/sym/a/deneme.build/ccache-54725.txt
+[2023-06-03T18:19:56.241456 54775] Config: (default) max_files = 0
+[2023-06-03T18:19:56.241456 54775] Config: (default) max_size = 5.0G
+[2023-06-03T18:19:56.241456 54775] Config: (default) namespace = 
+[2023-06-03T18:19:56.241456 54775] Config: (default) path = 
+[2023-06-03T18:19:56.241456 54775] Config: (default) pch_external_checksum = false
+[2023-06-03T18:19:56.241456 54775] Config: (default) prefix_command = 
+[2023-06-03T18:19:56.241456 54775] Config: (default) prefix_command_cpp = 
+[2023-06-03T18:19:56.241456 54775] Config: (default) read_only = false
+[2023-06-03T18:19:56.241456 54775] Config: (default) read_only_direct = false
+[2023-06-03T18:19:56.241456 54775] Config: (default) recache = false
+[2023-06-03T18:19:56.241456 54775] Config: (default) reshare = false
+[2023-06-03T18:19:56.241456 54775] Config: (default) run_second_cpp = true
+[2023-06-03T18:19:56.241456 54775] Config: (default) secondary_storage = 
+[2023-06-03T18:19:56.241456 54775] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-06-03T18:19:56.241456 54775] Config: (default) stats = true
+[2023-06-03T18:19:56.241456 54775] Config: (default) stats_log = 
+[2023-06-03T18:19:56.241456 54775] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-06-03T18:19:56.241456 54775] Config: (default) umask = 
+[2023-06-03T18:19:56.241731 54775] Command line: /usr/bin/ccache /usr/bin/clang -o static_src/MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src static_src/MainProgram.c
+[2023-06-03T18:19:56.241779 54775] Hostname: ubuntuast
+[2023-06-03T18:19:56.241787 54775] Working directory: /home/afeser/Automated-Software-Testing-Project/sym/a/deneme.build
+[2023-06-03T18:19:56.241792 54775] Compiler type: other
+[2023-06-03T18:19:56.241958 54775] Source file: static_src/MainProgram.c
+[2023-06-03T18:19:56.241969 54775] Object file: static_src/MainProgram.o
+[2023-06-03T18:19:56.242012 54775] Trying direct lookup
+[2023-06-03T18:19:56.242267 54775] No 9ff0a2295qorvcr3acdegpc4hrf26erj2 in primary storage
+[2023-06-03T18:19:56.242399 54775] Running preprocessor
+[2023-06-03T18:19:56.242427 54775] Executing /usr/bin/clang -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src -E static_src/MainProgram.c
+[2023-06-03T18:19:56.243630 54763] Got result key from preprocessor
+[2023-06-03T18:19:56.243696 54763] No bc8bbh2jao3gip7i60nba9s5dte8b4nr0 in primary storage
+[2023-06-03T18:19:56.243708 54763] Running real compiler
+[2023-06-03T18:19:56.243795 54763] Executing /usr/bin/clang -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src -c -o module.__main__.o module.__main__.c
+[2023-06-03T18:19:56.280058 54763] Compiler didn't produce an object file
+[2023-06-03T18:19:56.280131 54763] Failed; falling back to running the real compiler
+[2023-06-03T18:19:56.280147 54763] Executing /usr/bin/clang -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src module.__main__.c
+[2023-06-03T18:19:56.280181 54763] Result: compiler_produced_no_output
+[2023-06-03T18:19:56.280187 54763] Result: direct_cache_miss
+[2023-06-03T18:19:56.280191 54763] Result: preprocessed_cache_miss
+[2023-06-03T18:19:56.280195 54763] Result: primary_storage_miss
+[2023-06-03T18:19:56.280198 54763] Result: primary_storage_miss
+[2023-06-03T18:19:56.280316 54763] lockfile_acquire: symlink /home/afeser/.cache/Nuitka/ccache/e/b/stats.lock: No such file or directory
+[2023-06-03T18:19:56.280488 54763] Acquired lock /home/afeser/.cache/Nuitka/ccache/e/b/stats.lock
+[2023-06-03T18:19:56.280745 54763] Releasing lock /home/afeser/.cache/Nuitka/ccache/e/b/stats.lock
+[2023-06-03T18:19:56.280790 54763] Unlink /home/afeser/.cache/Nuitka/ccache/e/b/stats.lock
+[2023-06-03T18:19:56.280812 54763] Unlink /run/user/1000/ccache-tmp/tmp.stderr.HK8gnU
+[2023-06-03T18:19:56.280822 54763] Unlink /run/user/1000/ccache-tmp/tmp.stdout.0Udy3d
+[2023-06-03T18:19:56.280833 54763] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.c1izPF
+[2023-06-03T18:19:56.280852 54763] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.R9sW9P.i
+[2023-06-03T18:19:56.280863 54763] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.R9sW9P
+[2023-06-03T18:19:56.290559 54775] Got result key from preprocessor
+[2023-06-03T18:19:56.290630 54775] No bc8bbh2jao3gip7i60nba9s5dte8b4nr0 in primary storage
+[2023-06-03T18:19:56.290654 54775] Running real compiler
+[2023-06-03T18:19:56.290724 54775] Executing /usr/bin/clang -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src -c -o static_src/MainProgram.o static_src/MainProgram.c
+[2023-06-03T18:19:56.317216 54775] Compiler didn't produce an object file
+[2023-06-03T18:19:56.317279 54775] Failed; falling back to running the real compiler
+[2023-06-03T18:19:56.317291 54775] Executing /usr/bin/clang -o static_src/MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src static_src/MainProgram.c
+[2023-06-03T18:19:56.317300 54775] Result: compiler_produced_no_output
+[2023-06-03T18:19:56.317303 54775] Result: direct_cache_miss
+[2023-06-03T18:19:56.317331 54775] Result: preprocessed_cache_miss
+[2023-06-03T18:19:56.317337 54775] Result: primary_storage_miss
+[2023-06-03T18:19:56.317340 54775] Result: primary_storage_miss
+[2023-06-03T18:19:56.317436 54775] lockfile_acquire: symlink /home/afeser/.cache/Nuitka/ccache/f/7/stats.lock: No such file or directory
+[2023-06-03T18:19:56.317623 54775] Acquired lock /home/afeser/.cache/Nuitka/ccache/f/7/stats.lock
+[2023-06-03T18:19:56.317840 54775] Releasing lock /home/afeser/.cache/Nuitka/ccache/f/7/stats.lock
+[2023-06-03T18:19:56.317875 54775] Unlink /home/afeser/.cache/Nuitka/ccache/f/7/stats.lock
+[2023-06-03T18:19:56.317898 54775] Unlink /run/user/1000/ccache-tmp/tmp.stderr.NS0mWc
+[2023-06-03T18:19:56.317905 54775] Unlink /run/user/1000/ccache-tmp/tmp.stdout.6BEHCj
+[2023-06-03T18:19:56.317912 54775] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.puUmli
+[2023-06-03T18:19:56.317925 54775] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.YMJAHH.i
+[2023-06-03T18:19:56.317932 54775] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.YMJAHH
+[2023-06-03T18:19:56.471633 54795] === CCACHE 4.6.1 STARTED =========================================
+[2023-06-03T18:19:56.471633 54795] Config: (default) absolute_paths_in_stderr = false
+[2023-06-03T18:19:56.471633 54795] Config: (default) base_dir = 
+[2023-06-03T18:19:56.471633 54795] Config: (environment) cache_dir = /home/afeser/.cache/Nuitka/ccache
+[2023-06-03T18:19:56.471633 54795] Config: (default) compiler = 
+[2023-06-03T18:19:56.471633 54795] Config: (default) compiler_check = mtime
+[2023-06-03T18:19:56.471633 54795] Config: (default) compiler_type = auto
+[2023-06-03T18:19:56.471633 54795] Config: (default) compression = true
+[2023-06-03T18:19:56.471633 54795] Config: (default) compression_level = 0
+[2023-06-03T18:19:56.471633 54795] Config: (default) cpp_extension = 
+[2023-06-03T18:19:56.471633 54795] Config: (default) debug = false
+[2023-06-03T18:19:56.471633 54795] Config: (default) debug_dir = 
+[2023-06-03T18:19:56.471633 54795] Config: (default) depend_mode = false
+[2023-06-03T18:19:56.471633 54795] Config: (default) direct_mode = true
+[2023-06-03T18:19:56.471633 54795] Config: (default) disable = false
+[2023-06-03T18:19:56.471633 54795] Config: (default) extra_files_to_hash = 
+[2023-06-03T18:19:56.471633 54795] Config: (default) file_clone = false
+[2023-06-03T18:19:56.471633 54795] Config: (default) hard_link = false
+[2023-06-03T18:19:56.471633 54795] Config: (default) hash_dir = true
+[2023-06-03T18:19:56.471633 54795] Config: (default) ignore_headers_in_manifest = 
+[2023-06-03T18:19:56.471633 54795] Config: (default) ignore_options = 
+[2023-06-03T18:19:56.471633 54795] Config: (default) inode_cache = false
+[2023-06-03T18:19:56.471633 54795] Config: (default) keep_comments_cpp = false
+[2023-06-03T18:19:56.471633 54795] Config: (default) limit_multiple = 0.8
+[2023-06-03T18:19:56.471633 54795] Config: (environment) log_file = /home/afeser/Automated-Software-Testing-Project/sym/a/deneme.build/ccache-54725.txt
+[2023-06-03T18:19:56.471633 54795] Config: (default) max_files = 0
+[2023-06-03T18:19:56.471633 54795] Config: (default) max_size = 5.0G
+[2023-06-03T18:19:56.471633 54795] Config: (default) namespace = 
+[2023-06-03T18:19:56.471633 54795] Config: (default) path = 
+[2023-06-03T18:19:56.471633 54795] Config: (default) pch_external_checksum = false
+[2023-06-03T18:19:56.471633 54795] Config: (default) prefix_command = 
+[2023-06-03T18:19:56.471633 54795] Config: (default) prefix_command_cpp = 
+[2023-06-03T18:19:56.471633 54795] Config: (default) read_only = false
+[2023-06-03T18:19:56.471633 54795] Config: (default) read_only_direct = false
+[2023-06-03T18:19:56.471633 54795] Config: (default) recache = false
+[2023-06-03T18:19:56.471633 54795] Config: (default) reshare = false
+[2023-06-03T18:19:56.471633 54795] Config: (default) run_second_cpp = true
+[2023-06-03T18:19:56.471633 54795] Config: (default) secondary_storage = 
+[2023-06-03T18:19:56.471633 54795] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-06-03T18:19:56.471633 54795] Config: (default) stats = true
+[2023-06-03T18:19:56.471633 54795] Config: (default) stats_log = 
+[2023-06-03T18:19:56.471633 54795] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-06-03T18:19:56.471633 54795] Config: (default) umask = 
+[2023-06-03T18:19:56.471763 54795] Command line: /usr/bin/ccache /usr/bin/clang -o static_src/CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2023-06-03T18:19:56.471794 54795] Hostname: ubuntuast
+[2023-06-03T18:19:56.471799 54795] Working directory: /home/afeser/Automated-Software-Testing-Project/sym/a/deneme.build
+[2023-06-03T18:19:56.471803 54795] Compiler type: other
+[2023-06-03T18:19:56.471927 54795] Source file: static_src/CompiledFunctionType.c
+[2023-06-03T18:19:56.471934 54795] Object file: static_src/CompiledFunctionType.o
+[2023-06-03T18:19:56.471962 54795] Trying direct lookup
+[2023-06-03T18:19:56.472215 54795] No ab10hccn1daoechuo80miitph6760pjrm in primary storage
+[2023-06-03T18:19:56.472298 54795] Running preprocessor
+[2023-06-03T18:19:56.472309 54795] Executing /usr/bin/clang -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src -E static_src/CompiledFunctionType.c
+[2023-06-03T18:19:56.497976 54795] Got result key from preprocessor
+[2023-06-03T18:19:56.498065 54795] No bc8bbh2jao3gip7i60nba9s5dte8b4nr0 in primary storage
+[2023-06-03T18:19:56.498081 54795] Running real compiler
+[2023-06-03T18:19:56.498159 54795] Executing /usr/bin/clang -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src -c -o static_src/CompiledFunctionType.o static_src/CompiledFunctionType.c
+[2023-06-03T18:19:56.525088 54795] Compiler didn't produce an object file
+[2023-06-03T18:19:56.525154 54795] Failed; falling back to running the real compiler
+[2023-06-03T18:19:56.525182 54795] Executing /usr/bin/clang -o static_src/CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -w -fvisibility=hidden -fvisibility-inlines-hidden -O2 -D_XOPEN_SOURCE -D__NUITKA_NO_ASSERT__ -DPy_NO_ENABLE_SHARED -D_NUITKA_STATIC_LIBPYTHON -D_NUITKA_USE_UNEXPOSED_API -D_NUITKA_CONSTANTS_FROM_INCBIN -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -I/usr/include/python3.10 -I. -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include -I/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src static_src/CompiledFunctionType.c
+[2023-06-03T18:19:56.525192 54795] Result: compiler_produced_no_output
+[2023-06-03T18:19:56.525196 54795] Result: direct_cache_miss
+[2023-06-03T18:19:56.525200 54795] Result: preprocessed_cache_miss
+[2023-06-03T18:19:56.525204 54795] Result: primary_storage_miss
+[2023-06-03T18:19:56.525207 54795] Result: primary_storage_miss
+[2023-06-03T18:19:56.525306 54795] lockfile_acquire: symlink /home/afeser/.cache/Nuitka/ccache/0/b/stats.lock: No such file or directory
+[2023-06-03T18:19:56.525480 54795] Acquired lock /home/afeser/.cache/Nuitka/ccache/0/b/stats.lock
+[2023-06-03T18:19:56.525765 54795] Releasing lock /home/afeser/.cache/Nuitka/ccache/0/b/stats.lock
+[2023-06-03T18:19:56.525810 54795] Unlink /home/afeser/.cache/Nuitka/ccache/0/b/stats.lock
+[2023-06-03T18:19:56.525828 54795] Unlink /run/user/1000/ccache-tmp/tmp.stderr.jZ1Owx
+[2023-06-03T18:19:56.525848 54795] Unlink /run/user/1000/ccache-tmp/tmp.stdout.ySrAqq
+[2023-06-03T18:19:56.525857 54795] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stderr.LqiWGw
+[2023-06-03T18:19:56.525864 54795] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.L4eCYW.i
+[2023-06-03T18:19:56.525871 54795] Unlink /run/user/1000/ccache-tmp/tmp.cpp_stdout.L4eCYW

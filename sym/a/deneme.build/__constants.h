@@ -1,7 +1,7 @@
 #ifndef __NUITKA_GLOBAL_CONSTANTS_H__
 #define __NUITKA_GLOBAL_CONSTANTS_H__
 
-extern PyObject *global_constants[89];
+extern PyObject *global_constants[87];
 // ()
 #define const_tuple_empty global_constants[0]
 // {}
@@ -178,8 +178,4 @@ extern PyObject *global_constants[89];
 #define const_str_plain___class_getitem__ global_constants[83]
 // '__match_args__'
 #define const_str_plain___match_args__ global_constants[84]
-// '__aenter__'
-#define const_str_plain___aenter__ global_constants[85]
-// '__aexit__'
-#define const_str_plain___aexit__ global_constants[86]
 #endif
