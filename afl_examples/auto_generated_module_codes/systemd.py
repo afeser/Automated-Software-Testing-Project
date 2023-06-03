@@ -8,10 +8,11 @@ from units.modules.utils import AnsibleExitJson, AnsibleFailJson, ModuleTestCase
 from ansible.module_utils import basic
 from units.compat.mock import patch
 from ansible.modules import systemd
-
+import subprocess
 
 def test_systemd(vars):
-    if len(vars) != 6:
+    # next lines will be the input lines
+    if len(vars) < 6:
         return
     
     def get_bin_path(*args, **kwargs):
@@ -45,9 +46,16 @@ def test_systemd(vars):
     # AUTO GENERATED CODE END -------------------------------------------------------------------
 
 
-
+    if len(vars) == 6:
+        try:
+            out = subprocess.check_output(['systemctl', 'show', temp_args['name']]).decode()
+        except KeyError:
+            out = ''
+    else:
+        out = '\n'.join(vars[6:])
+    
     commands_results = [
-        (0, '', '') for x in range(100)
+        (0, out, '') for x in range(100)
     ]
 
     with patch.object(basic.AnsibleModule, 'run_command') as run_command:
