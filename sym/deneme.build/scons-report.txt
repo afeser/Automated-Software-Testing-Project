@@ -1,14 +1,14 @@
-CC=clang
+CC="/usr/bin/ccache" "/usr/bin/clang"
 CCACHE_DIR=/home/afeser/.cache/Nuitka/ccache
-CCACHE_LOGFILE=/home/afeser/Automated-Software-Testing-Project/sym/deneme.build/ccache-1471175.txt
+CCACHE_LOGFILE=/home/afeser/Automated-Software-Testing-Project/sym/a/deneme.build/ccache-54725.txt
 CCCOM=$CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
 CFILESUFFIX=.c
-CPPDEFINES=['_XOPEN_SOURCE', '__NUITKA_NO_ASSERT__', '_NUITKA_CONSTANTS_FROM_INCBIN', '_NUITKA_FROZEN=0', '_NUITKA_EXE']
+CPPDEFINES=['_XOPEN_SOURCE', '__NUITKA_NO_ASSERT__', 'Py_NO_ENABLE_SHARED', '_NUITKA_STATIC_LIBPYTHON', '_NUITKA_USE_UNEXPOSED_API', '_NUITKA_CONSTANTS_FROM_INCBIN', '_NUITKA_FROZEN=0', '_NUITKA_EXE']
 CPPDEFPREFIX=-D
 CPPDEFSUFFIX=
-CPPPATH=['/usr/include/python3.11', '.', '/home/afeser/.local/lib/python3.11/site-packages/nuitka/build/include', '/home/afeser/.local/lib/python3.11/site-packages/nuitka/build/static_src']
+CPPPATH=['/usr/include/python3.10', '.', '/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/include', '/home/afeser/.local/lib/python3.10/site-packages/nuitka/build/static_src']
 CPPSUFFIXES=['.c', '.C', '.cxx', '.cpp', '.c++', '.cc', '.h', '.H', '.hxx', '.hpp', '.hh', '.F', '.fpp', '.FPP', '.m', '.mm', '.S', '.spp', '.SPP', '.sx']
-CXX=g++
+CXX="/usr/bin/ccache" "/usr/bin/clang"
 CXXCOM=$CXX -o $TARGET -c $CXXFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
 CXXFILESUFFIX=.cc
 INCPREFIX=-I
@@ -28,10 +28,9 @@ LIBLINKSUFFIX=
 LIBPATH=['/usr/lib']
 LIBPREFIX=lib
 LIBPREFIXES=['$LIBPREFIX']
-LIBS=['dl', 'm', 'python3.11']
 LIBSUFFIX=.a
 LIBSUFFIXES=['$LIBSUFFIX', '$SHLIBSUFFIX']
-LINK=$SMARTLINK
+LINK="/usr/bin/clang"
 LINKCOM=$LINK -o $TARGET $LINKFLAGS $__RPATH @"./@link_input.txt" $_LIBDIRFLAGS $_LIBFLAGS
 OBJPREFIX=
 OBJSUFFIX=.o
@@ -60,4 +59,4 @@ clang_mode=True
 msvc_mode=False
 mingw_mode=False
 clangcl_mode=False
-PATH=/home/afeser/Automated-Software-Testing-Project/ansible2/bin:/home/afeser/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/bin/remote-cli:/home/afeser/Automated-Software-Testing-Project/ansible2/bin:/home/afeser/.local/bin:/home/afeser/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
