@@ -34,7 +34,7 @@ extern PyObject *modulecode___main__(PyObject *, struct Nuitka_MetaPathBasedLoad
 static struct Nuitka_MetaPathBasedLoaderEntry meta_path_loader_entries[] = {
     {"__main__", modulecode___main__, 0, 0, NUITKA_TRANSLATED_FLAG
 #if defined(_NUITKA_FREEZER_HAS_FILE_PATH)
-, "/home/afeser/Automated-Software-Testing-Project/sym/deneme.py"
+, "/home/afeser/Automated-Software-Testing-Project/sym/a/deneme.py"
 #endif
 },
     {NULL, NULL, 0, 0, 0}
